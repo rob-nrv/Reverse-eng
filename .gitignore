@@ -1,0 +1,28 @@
+# Ne jamais committer de contenu de jeu ni de code décompilé
+*-decomp/
+decomp/
+extracted/
+game-files/
+*.ff
+*.pak
+*.bsa
+*.ba2
+*.esm
+*.esp
+*.iso
+*.xex
+
+# Résultats locaux
+inventaire.txt
+*.log
+logs/
+
+# Builds
+build/
+target/
+out/
+.gradle/
+run/
+*.class
+__pycache__/
+.venv/
